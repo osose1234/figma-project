@@ -29,7 +29,6 @@ function App() {
       </Routes>
       <Solutions />
       <Cheack />
-
       <BusinessProfile />
       <Routes>
         <Route path="./" element={<Home />} />
@@ -38,7 +37,10 @@ function App() {
         <Route path="/About" element={<About />} />{" "}
         <Route path="/Sign" element={<Sign />} />
       </Routes>
-      <Subscribe />
+      <Subscribe />{" "}
+      <Routes>
+        <Route path="/Sign" element={<Sign />} />
+      </Routes>
       <Footer />
     </Router>
   );
