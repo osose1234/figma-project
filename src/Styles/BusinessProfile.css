@@ -1,0 +1,150 @@
+.business-profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  border-radius: 20px;
+  background: #5d626868;
+}
+
+/* Left Section */
+.business-info {
+  max-width: 400px;
+}
+
+.business-info h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.business-info p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.manage-btn {
+  background-color: #0a57ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.manage-btn:hover {
+  background-color: #0842c3;
+}
+
+/* Right Section (Profile Card) */
+.profile-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-details h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #555;
+}
+
+.category {
+  font-size: 14px;
+  color: #777;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+/* Navigation */
+.profile-nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+.profile-nav span {
+  font-size: 14px;
+  cursor: pointer;
+  color: #777;
+}
+
+.profile-nav .active {
+  color: #0a57ff;
+  border-bottom: 2px solid #0a57ff;
+  padding-bottom: 5px;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action p {
+  margin-top: 5px;
+}
+
+/* Quote Button */
+.quote-btn {
+  width: 100%;
+  background: white;
+  border: 2px solid #0a57ff;
+  color: #0a57ff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.quote-btn:hover {
+  background-color: #0a57ff;
+  color: white;
+}
+
+/* Location */
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.location img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.location p {
+  font-size: 14px;
+  color: #777;
+}

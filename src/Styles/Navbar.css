@@ -1,0 +1,188 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8f8484;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  height: 200px;
+}
+
+.Av {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  position: fixed;
+  margin-top: -999.9px;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+  background: rgb(239, 231, 216);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.Li {
+  height: 30px;
+  padding-top: 20px;
+}
+#Li {
+  padding-left: 90px;
+  padding-top: 20px;
+  display: flex;
+}
+.nav-links li {
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.signup-btn:hover {
+  background: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -339px;
+  margin-right: -99px;
+}
+.Li {
+  align-content: left;
+}
+.hero-text {
+  max-width: 50%;
+  padding-left: 280px;
+  padding-bottom: 200px;
+  background-size: 300px;
+}
+
+.highlight {
+  color: rgb(118, 116, 113);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.underline {
+  text-decoration: underline;
+  background: url(De.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  color: orange;
+}
+
+.subtext {
+  margin-top: 10px;
+  color: gray;
+}
+
+.buttons {
+  margin-top: 20px;
+  color: black;
+}
+.buttons:hover {
+  margin-top: 20px;
+  color: black;
+}
+
+.primary-btn {
+  background: orange;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.play-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-image img {
+  height: 564px;
+  max-width: 500px;
+}
+.image {
+  height: 60px;
+  width: 70px;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.log {
+  height: 20px;
+  width: 80px;
+}
+.tn {
+  background-color: gray;
+}
+.background-video {
+  top: 0;
+  left: 0;
+  margin-top: -400px;
+  height: 200%;
+  height: 100vh;
+  width: 114%;
+  object-fit: cover;
+  z-index: -1; /* Ensures the video stays behind the content */
+}
+
+/* Container */
+.container {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.Av {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+.log {
+  height: 100px;
+  width: 200px;
+}

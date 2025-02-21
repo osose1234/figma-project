@@ -1,0 +1,76 @@
+.room-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f5ef;
+  padding: 40px;
+}
+
+.text-section {
+  width: 35%;
+}
+
+.text-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+
+.text-section p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0 20px;
+}
+
+.explore-btn {
+  background-color: #c49a5a;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.slider {
+  width: 60%;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.overlay {
+  width: 90px;
+  position: absolute;
+  bottom: 10px;
+  left: 6px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.room-type {
+  font-size: 12px;
+  color: #666;
+}
+
+.room-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}
+
+.arrow-btn {
+  background: #c49a5a;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 5px;
+}

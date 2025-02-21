@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+  padding: 2px;
+
+  padding-top: 200px;
+}
+
+.services,
+.destinations {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.service,
+.destination {
+  background: #9b9292;
+  padding: 0.1em;
+  border-radius: 10px;
+  height: 300px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.weather {
+  background: url(Rect.jpg);
+}

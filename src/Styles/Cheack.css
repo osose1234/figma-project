@@ -1,0 +1,112 @@
+.book-trip-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f8f6ff56;
+  border-radius: 20px;
+}
+
+.trip-info {
+  max-width: 50%;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+}
+
+.steps {
+  margin-top: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.step-text h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.step-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.trip-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.trip-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.trip-details {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.people-going {
+  font-size: 14px;
+  color: #666;
+}
+
+.ongoing-trip {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.ongoing-trip h4 {
+  font-size: 14px;
+  color: #666;
+}
+
+.ongoing-trip h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.progress {
+  font-size: 14px;
+  color: #666;
+}
+.backgroundvideo {
+  height: 200px;
+  display: center;
+  border-radius: 30px;
+  width: 300px;
+}

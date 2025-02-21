@@ -1,0 +1,53 @@
+/* SignupOffers.css */
+.signup-container {
+  text-align: center;
+  padding: 20px;
+  padding-top: 100px;
+  background-color: #f4f7fc;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.offer-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.offer-card.selected {
+  border-color: #4285f4;
+}
+
+.offer-badge {
+  background: #4285f4;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.claim-button {
+  background: #4285f4;
+  color: white;
+  border: none;
+  transition: 0.8s linear;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.claim-button:hover {
+  transition: 0.8s linear;
+  background: #ccc;
+}

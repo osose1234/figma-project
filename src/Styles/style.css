@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+/* Featured Posts Section */
+.featured-posts {
+  padding: 40px 20px;
+}
+
+.featured-posts h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Posts Container */
+.posts-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Post Card */
+.post-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Post Image */
+.post-image {
+  position: relative;
+}
+
+.post-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+/* Post Content */
+.post-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.tags {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Post Footer */
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Learn More Link */
+.learn-more {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
